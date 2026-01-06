@@ -57,7 +57,9 @@ export function Navbar() {
         </div>
 
         {/* Download Resume Button */}
-        <motion.button
+        <motion.a
+          href="/Meganath_v_Resume.pdf"
+          download="Meganath_V_Resume.pdf"
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.5 }}
@@ -67,7 +69,7 @@ export function Navbar() {
         >
           <Download size={16} />
           Download Resume
-        </motion.button>
+        </motion.a>
 
         {/* Mobile Menu Toggle */}
         <button
@@ -98,10 +100,14 @@ export function Navbar() {
                   {link.name}
                 </a>
               ))}
-              <button className="flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-primary text-primary-foreground font-medium">
+              <a 
+                href="/Meganath_v_Resume.pdf"
+                download="Meganath_V_Resume.pdf"
+                className="flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-primary text-primary-foreground font-medium"
+              >
                 <Download size={16} />
                 Download Resume
-              </button>
+              </a>
             </div>
           </motion.div>
         )}
