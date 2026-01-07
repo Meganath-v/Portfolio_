@@ -37,7 +37,7 @@ export function Navbar() {
           className="text-xl font-bold gradient-text"
           whileHover={{ scale: 1.05 }}
         >
-          MV.
+          MV
         </motion.a>
 
         {/* Desktop Navigation */}

@@ -27,6 +27,12 @@ const timelineData: TimelineItem[] = [
     icon: Lightbulb,
     description: 'Innovation challenge winner',
   },
+   {
+    title: 'Winner, Hackwave 2024',
+    year: '2024',
+    icon: Trophy,
+    description: 'First place in Hackwave competition',
+  },
 ];
 
 export function ExperienceTimeline() {
