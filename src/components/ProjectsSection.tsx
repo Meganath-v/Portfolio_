@@ -18,30 +18,30 @@ const projects: Project[] = [
     tags: ['React Native', 'Python', 'OCR', 'Machine Learning'],
     gradient: 'from-primary/20 to-secondary/20',
     githubUrl: 'https://github.com/meganathv/snap2bill',
-    liveUrl: 'https://snap2bill.app',
+    //liveUrl: 'https://snap2bill.app',
   },
   {
     title: 'VR Learning Analytics Platform',
     description: 'Real-time backend system analyzing user engagement metrics for special education. Processes 10K+ data points per session.',
-    tags: ['Unity', 'C#', 'Analytics', 'VR/AR','Firebase','Flutter'],
+    tags: ['Unity', 'C#', 'Analytics', 'VR/AR', 'Firebase', 'Flutter'],
     gradient: 'from-secondary/20 to-primary/20',
     githubUrl: 'https://github.com/meganathv/vr-analytics',
-    liveUrl: 'https://vr-learning.demo',
+    //liveUrl: 'https://vr-learning.demo',
   },
   {
     title: 'HealthVerse - AI-Powered Health Platform',
     description: 'HealthVerse is an AI-powered health platform that provides personalized health recommendations and insights based on user data.',
-    tags: ['ReactNative', 'Firebase', 'Cloudinary', 'OCR','Deepseek R1'],
+    tags: ['ReactNative', 'Firebase', 'Cloudinary', 'OCR', 'Deepseek R1'],
     gradient: 'from-primary/20 to-secondary/20',
     githubUrl: 'https://github.com/Meganath-v/HealthVerseApp',
   },
   {
     title: 'SriKrishnaTextiles',
     description: 'A website for PowerLoom company where need to sell their products and recruit employees.',
-    tags: ['React', 'MongoDb', 'Express', 'Email.js','Firebase'],
+    tags: ['React', 'MongoDb', 'Express', 'Email.js', 'Firebase'],
     gradient: 'from-secondary/20 to-primary/20',
     githubUrl: 'https://github.com/Meganath-v/SriKrishnaTextiles',
-    liveUrl: 'https://srikrishna-textiles.netlify.app/',
+    liveUrl: 'https://consultancy-1ac50.web.app/',
   },
   {
     title: 'Data Analysis Project',
@@ -49,7 +49,7 @@ const projects: Project[] = [
     tags: ['Html', 'Css', 'JavaScript', 'Python', 'FastAPI'],
     gradient: 'from-primary/20 to-secondary/20',
     githubUrl: 'https://github.com/Meganath-v/Statathon-ps-4',
-    liveUrl: 'https://sales-dash.demo',
+    //liveUrl: 'https://sales-dash.demo',
   },
   {
     title: 'Amazon Web Scraper Suite',
@@ -71,7 +71,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
     const y = e.clientY - rect.top;
     const centerX = rect.width / 2;
     const centerY = rect.height / 2;
-    
+
     setRotateX((y - centerY) / 10);
     setRotateY((centerX - x) / 10);
   };
