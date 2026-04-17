@@ -3,9 +3,9 @@ import { Code, Database, Zap } from 'lucide-react';
 
 export function AboutSection() {
   const highlights = [
-    { icon: Code, label: 'Clean Code', value: 'Python & SQL' },
-    { icon: Database, label: 'Data Engineering', value: 'ETL & Analytics' },
-    { icon: Zap, label: 'Fast Learner', value: 'Always Growing' },
+    { icon: Code, label: 'Clean Code', value: 'React & TypeScript' },
+    { icon: Database, label: 'Backend Dev', value: 'Scalable APIs' },
+    { icon: Zap, label: 'Web & VR', value: 'Immersive Tech' },
   ];
 
   return (
@@ -34,10 +34,10 @@ export function AboutSection() {
             className="glass rounded-2xl p-8 md:p-12"
           >
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              I'm a passionate aspiring Data Engineer with a strong foundation in Python and SQL.
-              I love building data pipelines, automating workflows, and turning raw data into actionable insights.
-              My experience spans from mobile app development to VR analytics platforms, always with a focus on
-              creating efficient, scalable solutions.
+              I'm a passionate Software Developer with a strong focus on Web, Mobile, and VR development.
+              I love building immersive experiences, automating workflows, and creating high-performance applications.
+              My expertise spans across modern web technologies and virtual reality platforms, always with a focus on
+              creating efficient, scalable, and user-centric solutions.
             </p>
 
             <div className="grid sm:grid-cols-3 gap-6">

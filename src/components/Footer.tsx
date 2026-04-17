@@ -19,7 +19,7 @@ export function Footer() {
             viewport={{ once: true }}
             className="text-muted-foreground text-sm"
           >
-            <span className="gradient-text font-medium">Aspiring Data Engineer</span>
+            <span className="gradient-text font-medium">Software Developer</span>
           </motion.p>
         </div>
       </div>
