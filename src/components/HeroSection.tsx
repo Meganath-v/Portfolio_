@@ -37,7 +37,7 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8"
         >
-          Aspiring Data Engineer | Python & SQL Specialist
+          Software Developer | Web, Mobile & VR | Lifelong Learner
         </motion.p>
 
         {/* 3D Scene */}
